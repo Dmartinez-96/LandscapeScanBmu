@@ -1,0 +1,1 @@
+g++ -o testGY ../src/main.cpp ../src/Gauge_routine.cpp ../src/Yukawa_routine.cpp ../src/MSSM_RGE_solver.cpp ../src/MSSM_RGE_solver_with_U3Q3finder.cpp ../src/MSSM_RGE_solver_with_stopfinder.cpp ../src/tree_mass_calc.cpp ../src/mixing.cpp -lgsl -lgslcblas -lm -I../include -I/usr/include
